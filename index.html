@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flappy bird</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/bird.png" type="image/png">
+	<script src="flappy.js" defer></script>
+</head>
+<body>
+	<div class="decription">
+		<p>Для гри натисніть клавішу "Стрілка вгору"</p>
+	</div>
+	<div class="wrapper">
+		<p id="score">SCORE: </p>
+		<p id="best_score">BEST SCORE: </p>
+	</div>
+	<br>
+	<div class="canvas">
+		<canvas id="canvas"></canvas>
+	</div>
+	<br>
+	<div class="control">
+		<input type="button" value="PAUSE" onclick="game_pause()" class="btn">
+	</div>
+</body>
+</html>

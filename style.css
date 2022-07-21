@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+#canvas {
+  box-shadow: 0 0 5px black;
+}
+.canvas {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(17, 129, 129, 0.842);
+}
+
+.decription {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(11, 49, 92);
+
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.control {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 10px auto;
+}
+
+.btn {
+  font-size: 30px;
+}
+
+/*--------head animation-------*/
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
